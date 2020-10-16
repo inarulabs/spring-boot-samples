@@ -1,0 +1,11 @@
+plugins {
+    id 'java'
+    id 'java-library'
+}
+
+description = "Spring Boot Security Sample"
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation project(':sample-core')
+}
